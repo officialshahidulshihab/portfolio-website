@@ -126,7 +126,7 @@ nav .menu a{
 }
 
 .About .About-containt{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     max-width: 1140px;
     width: 71%;
     background-color: #FFF8F3;
@@ -169,3 +169,87 @@ padding: 131px 157px 131px 156px;
     font-size: 20px;
     line-height: 30px;
 }
+
+/* .About-containt{
+    max-width: 827px;
+    text-align: center;
+}
+
+.About-containt h2{
+font-size: 35px;
+margin-bottom: 30px;
+}
+.About-containt p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+} */
+.skills{
+    padding-top: 130px;
+}
+.skills-container{
+    max-width: 1140px;
+    width: 71%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-heading h2{
+font-size: 35px;
+margin-bottom: 30px;
+}
+.section-heading p{
+   font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575; 
+}
+
+.section-heading h3{
+    font-size: 20px;
+}
+
+.skill-box{
+    display: flex;
+    
+    gap: 24px;
+}
+.skill-box p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.skill-box .skillcard{
+    padding: 30px;
+    max-width: 267px;
+}
+
+/* .skill-box .skillcard  img{
+    max-width: 44px;
+    margin-bottom: 30px;
+    text-align: left;
+ 
+} */
+
+.skill-box .skillcard {
+    padding: 30px;
+    max-width: 267px;
+    text-align: left; /* This fixes the image positioning */
+    background: #fff; /* Optional: adds visibility to the card */
+    box-shadow: 0 6px 50px 0 #0000003b;
+   
+}
+
+.skill-box .skillcard img {
+    display: block; 
+    max-width: 44px;
+    margin-bottom: 30px;
+    margin-left: 0; 
+}
+.skillcard h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
