@@ -29,7 +29,21 @@ color: white;
 cursor: pointer;
 }
 
+.About-containt{
+    max-width: 827px;
+    text-align: center;
+}
 
+.About-containt h2{
+font-size: 35px;
+margin-bottom: 30px;
+}
+.About-containt p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 
 
 
@@ -107,3 +121,51 @@ nav .menu a{
     vertical-align: middle;
 }
 
+.About{
+    padding-top: 130px;
+}
+
+.About .About-containt{
+    border: 1px solid red;
+    max-width: 1140px;
+    width: 71%;
+    background-color: #FFF8F3;
+   margin: 0px auto;
+text-align: center;
+padding: 131px 157px 131px 156px;
+   
+    
+}
+.About-containt .info-div{
+    max-width: 827px;
+
+}
+
+/* .About-containt .info-div h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+ 
+   
+    
+} */
+
+
+.About .About-containt .info-div .coreinfo-div{
+    display: flex;
+    justify-content:space-around;
+
+    
+}
+.About .About-containt .info-div .coreinfo-div p{
+    font-size: 20px;
+    margin: 0px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.info-div .coreinfo-div h4{
+    font-size: 20px;
+    line-height: 30px;
+}
